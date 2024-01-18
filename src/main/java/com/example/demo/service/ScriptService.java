@@ -24,13 +24,13 @@ public class ScriptService {
 
 	@Autowired
 	ScriptRepository scriptRepository;
-	
+
 	private final CommandExecutionUtils commandExecutionUtils;
 
-    @Autowired
-    public ScriptService(CommandExecutionUtils commandExecutionUtils) {
-        this.commandExecutionUtils = commandExecutionUtils;
-    }
+	@Autowired
+	public ScriptService(CommandExecutionUtils commandExecutionUtils) {
+		this.commandExecutionUtils = commandExecutionUtils;
+	}
 
 	public List<Script> findAll() {
 		return scriptRepository.findAll();
