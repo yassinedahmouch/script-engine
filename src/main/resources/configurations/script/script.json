@@ -1,0 +1,14 @@
+[
+  {
+    "scriptType": "bat",
+    "scriptCommand": "cmd /c start"
+  },
+  {
+    "scriptType": "py",
+    "scriptCommand": "python "
+  },
+  {
+    "scriptType": "jar",
+    "scriptCommand": "java -jar "
+  }
+]
